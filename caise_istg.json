@@ -1,9 +1,8 @@
 {
   "route": "https://global.spider-api.com/v1/auth/refreshToken",
   "payload": {
-    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoicmVmcmVzaCIsImlhdCI6MTcyNDY3NTg5NywiZXhwIjoxNzUwNTk1ODk3fQ.jkehrzyFufx5lHSBjubuwLRV-Y9HEYmTEAvBNeuDEWM"
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoicmVmcmVzaCIsImlhdCI6MTcyNDY3NTg5NywiZXhwIjoxNzUwNTk1ODk3fQ.jkehrzyFufx5lHSBjubuwLRV-Y9HEYmTEAvBNeuDEWM"
   },
-  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoicmVmcmVzaCIsImlhdCI6MTcyNDY3NTg5NywiZXhwIjoxNzUwNTk1ODk3fQ.jkehrzyFufx5lHSBjubuwLRV-Y9HEYmTEAvBNeuDEWM",
-  "accessToken ": "",
+  "accessToken ": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJRCI6IkRTIiwidXNlclBob25lIjoiMDc2NzMzNDE3NCIsImlhdCI6MTcyNDY3NTg5NywiZXhwIjoxNzI3MjY3ODk3fQ.-Zh5O0oyH3-6rlM9cPB9F9d3NW3JqrgycaellCvtJx0",
   "active": true
 }
