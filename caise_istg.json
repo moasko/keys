@@ -1,4 +1,9 @@
 {
+  "route": "https://global.spider-api.com/v1/auth/refreshToken",
+  "payload": {
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoicmVmcmVzaCIsImlhdCI6MTcyNDY3NTg5NywiZXhwIjoxNzUwNTk1ODk3fQ.jkehrzyFufx5lHSBjubuwLRV-Y9HEYmTEAvBNeuDEWM"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoicmVmcmVzaCIsImlhdCI6MTcyNDY3NTg5NywiZXhwIjoxNzUwNTk1ODk3fQ.jkehrzyFufx5lHSBjubuwLRV-Y9HEYmTEAvBNeuDEWM",
   "accessToken ": "",
   "active": true
 }
