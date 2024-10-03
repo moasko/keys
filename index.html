@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        background-color: #333;
+        border-radius: 5px;
+      }
+      .main-section {
+        text-align: center;
+        padding: 2rem;
+        background: url("background.jpg") no-repeat center center/cover;
+        color: white;
+      }
+      .main-section h1 {
+        font-size: 3rem;
+      }
+      .main-section button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .about,
+      .contact {
+        padding: 2rem;
+        text-align: center;
+      }
+      .contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .contact input,
+      .contact textarea {
+        padding: 0.5rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .contact button {
+        padding: 1rem;
+        font-size: 1rem;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenue sur notre site</h1>
+      <nav>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="main-section">
+      <h1>Découvrez nos services</h1>
+      <button>En savoir plus</button>
+    </section>
+    <section id="about" class="about">
+      <h2>À propos de nous</h2>
+      <p>
+        Nous sommes une entreprise dédiée à fournir les meilleurs services à nos
+        clients.
+      </p>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Contactez-nous</h2>
+      <form>
+        <input type="text" placeholder="Votre nom" required />
+        <input type="email" placeholder="Votre email" required />
+        <textarea placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </body>
+</html>
