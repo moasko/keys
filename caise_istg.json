@@ -3,6 +3,6 @@
   "payload": {
     "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoicmVmcmVzaCIsImlhdCI6MTcyNDY3NTg5NywiZXhwIjoxNzUwNTk1ODk3fQ.jkehrzyFufx5lHSBjubuwLRV-Y9HEYmTEAvBNeuDEWM"
   },
-  "accessToken ": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJRCI6IkRTIiwidXNlclBob25lIjoiMDc2NzMzNDE3NCIsImlhdCI6MTcyNzk4Mjg2NywiZXhwIjoxNzMwNTc0ODY3fQ.UJZD7bElLejl0ZnZirvcPjXLPDIkPKZNyfdVWbdLO_0",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJRCI6IkRTIiwidXNlclBob25lIjoiMDc2NzMzNDE3NCIsImlhdCI6MTcyNzk4Mjg2NywiZXhwIjoxNzMwNTc0ODY3fQ.UJZD7bElLejl0ZnZirvcPjXLPDIkPKZNyfdVWbdLO_0",
   "active": true
 }
