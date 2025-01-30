@@ -3,20 +3,67 @@
     "numero_client": "123456",
     "code_secret": "123456"
   },
+  "utilisateur": {
+    "nom": "Moasko Dev",
+    "email": "moasko@example.com",
+    "derniere_connexion": "2023-10-10 15:04:02"
+  },
   "comptes": [
     {
       "id": 1,
       "numero_compte": "FR76 3000 1000 0100 0000 0000 001",
       "solde": 1000000,
       "devise": "EUR",
-      "type": "Compte courant"
+      "type": "Compte courant",
+      "iban": "FR76 3000 1000 0100 0000 0000 001",
+      "bic": "BNPAFRPPXXX"
     },
     {
       "id": 2,
       "numero_compte": "FR76 3000 1000 0100 0000 0000 002",
       "solde": 500000,
       "devise": "EUR",
-      "type": "Compte épargne"
+      "type": "Compte épargne",
+      "iban": "FR76 3000 1000 0100 0000 0000 002",
+      "bic": "BNPAFRPPXXX"
+    }
+  ],
+  "cartes": [
+    {
+      "id": 1,
+      "numero_carte": "1234 5678 9012 3456",
+      "type": "Visa",
+      "statut": "Active",
+      "date_expiration": "10/2025",
+      "plafond": 5000
+    },
+    {
+      "id": 2,
+      "numero_carte": "9876 5432 1098 7654",
+      "type": "MasterCard",
+      "statut": "Bloquée",
+      "date_expiration": "05/2024",
+      "plafond": 3000
+    }
+  ],
+  "prets": [
+    {
+      "id": 1,
+      "montant": 20000,
+      "taux_interet": 2.5,
+      "duree": 60,
+      "date_debut": "2023-01-01",
+      "date_fin": "2028-01-01",
+      "statut": "En cours"
+    },
+    {
+      "id": 2,
+      "montant": 10000,
+      "taux_interet": 3.0,
+      "duree": 36,
+      "date_debut": "2022-06-01",
+      "date_fin": "2025-06-01",
+      "statut": "Terminé"
     }
   ],
   "transactions": [
