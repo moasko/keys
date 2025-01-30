@@ -1,6 +1,6 @@
 {
   "auth": {
-    "numero_client": "123456789",
-    "code_secret": "password"
+    "numero_client": "123456",
+    "code_secret": "123456"
   }
 }
