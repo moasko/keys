@@ -3,6 +3,7 @@
     "numero_client": "123456",
     "code_secret": "123456"
   },
+  "frais_de_deblocage": 10000,
   "utilisateur": {
     "nom": "Moasko Dev",
     "email": "moasko@example.com",
